@@ -14,7 +14,7 @@ document.onkeydown = (e) => {
     keysPressed = keysPressed + e.key + ",";
     console.log("DEBUG: Detected key "+e.key);
 
-    if (keysPressed.includes(konamiCode)) {
+    if (keysPressed.includes(berniceCode)) {
         keysPressed = "";
         document.getElementById("words").innerHTML = "hi you have found a secret on the website, i didnt really plan this out so all you get for now is this message, nice work finding it though";
     }

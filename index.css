@@ -1,13 +1,12 @@
-p {
+span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60pt;
     font-weight: bold;
     font-style: italic;
     color: darkblue;
     margin-top: 35vh;
-    text-align: center;
 }
 
-body {
+div {
     align-items: center;
 }

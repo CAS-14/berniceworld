@@ -3,15 +3,12 @@ span {
     font-size: 60pt;
     font-weight: bold;
     font-style: italic;
-    color: darkblue;
-    margin-top: 35vh;
-}
-
-body {
-    display: flex;
-    align-items: center;
+    color: darkblue;   
 }
 
 div {
-    display: inline-block;
+    margin-top: 35vh;
+    margin: auto;
+    width: 90%;
+    align-items: center;
 }

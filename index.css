@@ -3,12 +3,16 @@ span {
     font-size: 60pt;
     font-weight: bold;
     font-style: italic;
-    color: darkblue;   
+    color: darkblue;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 div {
     margin-top: 35vh;
-    margin: auto;
     width: 90%;
     align-items: center;
+    justify-content: center;
+    display: flex;
 }

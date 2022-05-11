@@ -6,7 +6,7 @@ function randomFont() {
     console.log("DEBUG: Font now set to "+font);
 }
 
-const berniceCode = "h,i,Space,b,e,r,n,i,c,e,";
+const berniceCode = "h,i, ,b,e,r,n,i,c,e,";
 var keysPressed = "";
 
 document.onkeydown = (e) => {

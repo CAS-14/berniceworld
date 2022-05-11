@@ -7,3 +7,7 @@ p {
     margin-top: 35vh;
     text-align: center;
 }
+
+body {
+    align-items: center;
+}

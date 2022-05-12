@@ -1,9 +1,10 @@
 :root {
-    --text-font: "Arial"
+    --font: "Arial";
+    --color: #000000;
 }
 
 span {
-    font-family: var(--text-font);
+    font-family: var(--font);
     font-size: 60pt;
     font-weight: bold;
     font-style: italic;

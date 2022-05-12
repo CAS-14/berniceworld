@@ -19,6 +19,7 @@ document.onkeydown = (e) => {
         document.getElementById("words").innerHTML = "hi you have found a secret on the website, i didnt really plan this out so all you get for now is this message, nice work finding it though";
     } else if (keysPressed.includes(strikesAgain)) {
         keysPressed = "";
-        alert("bernice moment! (this is a placeholder alert)")
+        document.getElementById("image").src = "bernice_sphere.gif"
+        alert("DANGER! YOU HAVE ACTIVATED THE **BERNICE SPHERE**!")
     }
 }

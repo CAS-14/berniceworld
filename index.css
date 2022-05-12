@@ -8,7 +8,7 @@ span {
     font-size: 60pt;
     font-weight: bold;
     font-style: italic;
-    color: darkblue;  
+    color: var(--color);  
     align-items: center;
     justify-content: center;
     display: flex;
